@@ -1,4 +1,5 @@
-setwd("C://Users/etsaf/OneDrive/zzzCoursera/courseraWorkingDirectories/gettingCleaningDataFinalProject")
+#First, download the files found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#to your working directory.
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt", header = FALSE)
 #Creating training dataframe
 subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt", header=FALSE)
